@@ -1,6 +1,6 @@
-# linear for OpenAgent
+# Linear Issues
 
-Linear issues and projects through MCP.
+Find and update issues and projects in Linear; requires an authorized Linear account.
 
 Install the release archive through OpenAgent Integrations → Plugins. This is an independent adaptation.
 
@@ -22,6 +22,6 @@ Bundled tests cover immutable artifacts, config conversion and service configura
 
 ## 中文
 
-通过 MCP 管理 Linear 议题和项目。 安装发布包后运行 /linear:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/linear/ 下，修改后刷新插件。
+查询和更新 Linear 议题与项目，需要授权 Linear 账号。 安装发布包后运行 /linear:setup 查看配置要求。凭据和状态保存在当前 OpenAgent 数据目录的 plugin-data/linear/ 下，修改后刷新插件。
 
 Upstream source and exact revision are recorded in provenance.json. Bundled source remains available for inspection.

@@ -1,8 +1,8 @@
 {
   "$schema": "https://agent-plugins.org/schemas/1.0.0/plugin.schema.json",
   "name": "linear",
-  "version": "0.2.0",
-  "description": "Linear issues and projects through MCP.",
+  "version": "0.2.1",
+  "description": "Find and update issues and projects in Linear; requires an authorized Linear account.",
   "license": "Apache-2.0",
   "homepage": "https://github.com/anthropics/claude-plugins-official/tree/ac996c0dde7fb2a9f805cd5277ffc95ecd44a321/external_plugins/linear",
   "repository": "https://github.com/BANG404/openagent-linear",
@@ -47,8 +47,8 @@
         "default_locale": "en",
         "translations": {
           "en": {
-            "display_name": "linear",
-            "description": "Linear issues and projects through MCP.",
+            "display_name": "Linear Issues",
+            "description": "Find and update issues and projects in Linear; requires an authorized Linear account.",
             "commands.setup.label": "Setup",
             "commands.setup.description": "Review connection prerequisites",
             "configuration.client-id.label": "OAuth client ID",
@@ -57,8 +57,8 @@
             "configuration.scope.description": "Optional scopes accepted by the provider. Changing this disconnects the existing local authorization."
           },
           "zh": {
-            "display_name": "linear",
-            "description": "通过 MCP 管理 Linear 议题和项目。",
+            "display_name": "Linear 任务管理",
+            "description": "查询和更新 Linear 议题与项目，需要授权 Linear 账号。",
             "commands.setup.label": "配置",
             "commands.setup.description": "查看连接要求",
             "configuration.client-id.label": "OAuth 客户端 ID",
